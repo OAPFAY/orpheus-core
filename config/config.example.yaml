@@ -1,0 +1,11 @@
+# ORPHEUS Non-Secret Configuration Example
+# Copy to config.yaml locally if needed (do not commit real secrets).
+
+assistant:
+  name: "Orpheus / Hermes"
+  profile: "best-condition"
+  gateway_url: "http://localhost:20128/v1"
+
+logging:
+  level: "INFO"
+  output_dir: "~/orpheus-core/audits"

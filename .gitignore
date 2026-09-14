@@ -1,0 +1,33 @@
+# --- SECRETS & CREDENTIALS ---
+*.env
+.env.*
+auth.json
+auth.lock
+tokens/
+*.key
+*.pem
+secrets/
+*.secret
+
+# --- RUNTIME STATE & DATABASES ---
+*.db
+*.sqlite
+*.sqlite3
+state.json
+gateway.pid
+*.log
+*.pid
+
+# --- HERMES & 9ROUTER PRIVATE STATE ---
+backups/
+.curator_backups/
+audio_cache/
+*.cache
+temp/
+tmp/
+
+# --- OS SPECIFIC ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
